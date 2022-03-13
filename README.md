@@ -5,7 +5,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 # reading-notes
 ## Code 102 Reading Notes
 ### [The Growth Mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
-#####
+
 - **Growth Mindset** believes that one's fundamental abilities can be developed through perseverance and effort; intelligence and talent are simply good starting points.
 - **Fixed Mindset** believes that intelligence and talent are seen as fixed traits, suggesting that success comes from these inherent qualities alone, without the need for further development or effort.
 - *Embrace Challenges* by recognizing avoidance, walking through the problem bit by bit and looking for new ways to think about it.
@@ -15,7 +15,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - *Use the success of others as inspiration* and recognize how together as a team their unique skillsets compliment your own.
 
 ### [Choosing a Text Editor](https://codefellows.github.io/code-102-guide/curriculum/class-02/Choosing-A-Text-Editor--The-Older-Coder.pdf)
-#####
+
 - A **Text Editor** is a piece of software that allows you to write and manage text, especially the text that you use to build a website.
 - Features to look for:
   1. Code Completion
@@ -29,7 +29,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - An **IDE (Integrated Development Environment)** is a suite of different software all coming together, It is a text editor, file manager, compiler, and a debugger all in one software package.
 
 ### [The Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php)
-#####
+
 - A **command line,** or **terminal,** is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. 
 - A *command prompt* is the input field in a text-based user interface screen for an operating system or program. A prompt in this context is something designed to elicit an action.
 - Typically a *command* is always the first thing you type. Followed by command line arguments.
@@ -43,7 +43,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - **Shortcuts:** When you enter commands, they are actually stored in a history. You can traverse this history using the up and down arrow keys. So don't bother re-typing out commands you have previously entered, you can usually just hit the up arrow a few times. You can also edit these commands using the left and right arrow keys to move the cursor where you want.
 
 ### [Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
-#####
+
 - **pwd (Print Working Directory)** Make use of this command often so as to remind yourself where you presently are
 - **ls (List) :** Tells us what is in the location.
 - **-l (Long Listing) :** a single command line option which has the following:
@@ -72,7 +72,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - **Tab Completion** When you start typing a path (anywhere on the command line) you may hit the tab key at any time to invoke an auto complete action. If nothing happens then that means there are several possibilities. You may then continue typing and hit tab again and it will again try to auto complete for you.
 
 ### [About Files](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
-#####
+
 - With Linux everything under the hood is a file
   - A text file is a file, your keyboard is a file (one that the system reads from only) your monitor is a file (one that the system writes to only)
 - **File Extension:** normally a set of 2-4 characters after a full stop at the end of a file, which denotes what type of file it is. 
