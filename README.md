@@ -2,8 +2,9 @@
 #### My name is Stephanie Hill, and I am a student at Code Fellows!
 Learn more about me on my [profile page](https://github.com/stephnitis)
 
-# reading-notes
-## Code 102 Reading Notes
+### Table of Contents
+- [Growth Mindset](https://stephnitis.github.io/reading-notes/GrowthMindset.md)
+- [Coders Computer](https://stephnitis.github.io/reading-notes/CodersComputer.md)
 
 ### [Choosing a Text Editor](https://codefellows.github.io/code-102-guide/curriculum/class-02/Choosing-A-Text-Editor--The-Older-Coder.pdf)
 
