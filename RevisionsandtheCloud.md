@@ -22,3 +22,8 @@
     - *Untracked* Untracked files were not in the last snapshot and do not currently reside in the staging area.
 
 - To determine the state of files, utilize the git status command: **git status**
+- Track one file only by using the following format: **git add filename**
+- Track all files in a repository by using the following command: **git add ***
+- After staging one or multiple files, you should commit the changes and record what you did within the commit message: **git commit -m “made change x,y,z”**
+- Commit all changes with **git commit -a**
+- This command pushes changes from the local “master” branch to the remote repository named “origin” : **git push origin master**
