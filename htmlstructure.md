@@ -54,3 +54,16 @@
 - **Attributes** contain extra information about the element that you don't want to appear in the actual content.
 - You can put elements inside other elements too — this is called **nesting.** You do however need to make sure that your elements are properly nested. The elements have to open and close correctly so that they are clearly inside or outside one another. If they overlap, then your web browser will try to make the best guess at what you were trying to say, which can lead to unexpected results.
 - Some elements have no content and are called **empty elements.** e.g. *<img>* element, because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.
+
+### [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+
+- In programming, **Semantics** refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
+- HTML should be coded to represent the data that will be populated and not based on its default presentation styling. Presentation (how it should look), is the sole responsibility of CSS.
+**Some of the benefits from writing semantic markup are as follows:**
+    - Search engines will consider its contents as important keywords to influence the page's search rankings
+    - Screen readers can use it as a signpost to help visually impaired users navigate a page
+    - Finding blocks of meaningful code is significantly easier than searching through endless divs with or without semantic or namespaced classes
+    - Suggests to the developer the type of data that will be populated
+    - Semantic naming mirrors proper custom element/component naming
+
+**When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?"**
