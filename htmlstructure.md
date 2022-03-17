@@ -40,3 +40,7 @@
     - Ease of navigation through your site and clear calls-to-action increase user confidence in your brand.
 3. Simplicity is key
     - Too much information, copy, or links, can be distracting to the user and will have a detrimental affect on your users’ ability to achieve their goals.
+
+### [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+
+- **HTML (HyperText Markup Language)** is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
