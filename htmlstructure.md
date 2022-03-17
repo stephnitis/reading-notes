@@ -44,3 +44,13 @@
 ### [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
 - **HTML (HyperText Markup Language)** is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+
+- **Anatomy of an HTML element**
+    1. *The opening tag:* This consists of the name of the element wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect.
+    2. *The closing tag:* This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.
+    3. *The content:* This is the content of the element 
+    4. *The element:* The opening tag, the closing tag, and the content together comprise the element.
+
+- **Attributes** contain extra information about the element that you don't want to appear in the actual content.
+- You can put elements inside other elements too — this is called **nesting.** You do however need to make sure that your elements are properly nested. The elements have to open and close correctly so that they are clearly inside or outside one another. If they overlap, then your web browser will try to make the best guess at what you were trying to say, which can lead to unexpected results.
+- Some elements have no content and are called **empty elements.** e.g. *<img>* element, because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.
