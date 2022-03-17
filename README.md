@@ -4,5 +4,4 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 
 ### Table of Contents
 - [Growth Mindset](https://stephnitis.github.io/reading-notes/GrowthMindset.md)
-<<<<<<< HEAD
 - [Coders Computer](https://stephnitis.github.io/reading-notes/CodersComputer.md)
