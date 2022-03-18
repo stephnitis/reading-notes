@@ -14,4 +14,8 @@
 [find links to all the CSS property pages here](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
 - **CSS Modules:** As there are so many things that you could style using CSS, the language is broken down into modules.
+-**CSS Specifications:** All web standards technologies are defined in giant documents called specifications (or "specs"), which are published by standards organizations CSS is constantly developing, with new features becoming available. However, a key thing about CSS is that everyone works very hard to never change things in a way that would break old websites.
+- **Browser support information:** The browser support status is shown on every MDN property page in a section named "Browser compatibility" (use this to check if the property can be used on your website).
+
+### [How to Add CSS](https://www.w3schools.com/css/css_howto.asp)
 
