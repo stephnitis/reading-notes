@@ -32,4 +32,9 @@
     - To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 
 - **Multiple Style Sheets:** If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used. 
+- **Cascading Order** All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+    1. Inline style (inside an HTML element)
+    2. External and internal style sheets (in the head section)
+    3. Browser default
+
 
