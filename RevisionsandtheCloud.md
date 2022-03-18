@@ -26,4 +26,4 @@
 - Track all files in a repository by using the following command: **git add ***
 - After staging one or multiple files, you should commit the changes and record what you did within the commit message: **git commit -m “made change x,y,z”**
 - Commit all changes with **git commit -a**
-- This command pushes changes from the local “master” branch to the remote repository named “origin” : **git push origin master**
+- This command pushes changes from the local “master” branch to the remote repository named “origin” : **git push origin master** 
