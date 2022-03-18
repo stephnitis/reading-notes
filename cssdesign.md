@@ -37,4 +37,4 @@
     2. External and internal style sheets (in the head section)
     3. Browser default
 
-
+### [CSS Color Property](https://www.w3schools.com/cssref/pr_text_color.asp)
