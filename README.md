@@ -8,8 +8,8 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 ### Table of Contents
 
 - [Growth Mindset](./GrowthMindset.md)
-- [Coders Computer](https://stephnitis.github.io/reading-notes/CodersComputer.md)
-- [Revisions and the Cloud](https://stephnitis.github.io/reading-notes/RevisionsandtheCloud.md)
-- [Structure Web Pages with HTML](https://stephnitis.github.io/reading-notes/htmlstructure.md)
-- [Design Web Pages with CSS](https://stephnitis.github.io/reading-notes/cssdesign.md)
-- [Dynamic web pages with JavaScript](https://stephnitis.github.io/reading-notes/jsnotes.md)
+- [Coders Computer](./CodersComputer.md)
+- [Revisions and the Cloud](./RevisionsandtheCloud.md)
+- [Structure Web Pages with HTML](./htmlstructure.md)
+- [Design Web Pages with CSS](./cssdesign.md)
+- [Dynamic web pages with JavaScript](./jsnotes.md)
