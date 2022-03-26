@@ -12,3 +12,10 @@
   - When an event occurs (when a user clicks a button)
   - When it is invoked (called) from JavaScript code
   - Automatically (self invoked)
+
+### [JavaScript Operators](https://www.w3schools.com/js/js_operators.asp)
+
+**Further References:**
+
+- [Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
