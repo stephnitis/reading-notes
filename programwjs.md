@@ -12,8 +12,24 @@
   - When an event occurs (when a user clicks a button)
   - When it is invoked (called) from JavaScript code
   - Automatically (self invoked)
+- When JavaScript reaches a return statement, the function will stop executing.
+- If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+- Functions often compute a *return value*. The return value is "returned" back to the "caller"
 
 ### [JavaScript Operators](https://www.w3schools.com/js/js_operators.asp)
+
+- **Arithmetic operators** are used to perform arithmetic on numbers
+- **Assignment operators** assign values to JavaScript variables.
+- **String Operators:**
+  - The + operator can also be used to add (concatenate) strings.
+  - When used on strings, the + operator is called the concatenation operator.
+  - The += assignment operator can also be used to add (concatenate) strings
+  - Adding two numbers, will return the sum, but adding a number and a string will return a string
+  - If you add a number and a string, the result will be a string!
+- **Comparison** and **Logical** operators are used to test for true or false.
+- **Bitwise Operators:**
+  - Bit operators work on 32 bits numbers.
+  - Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
 
 **Further References:**
 
