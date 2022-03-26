@@ -60,3 +60,5 @@
 
 - Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names. Using the dollar sign is not very common in JavaScript, but professional programmers often use it as an alias for the main function in a JavaScript library.
 - Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names. Using the underscore is not very common in JavaScript, but a convention among professional programmers is to use it as an alias for "private (hidden)" variables.
+
+### (Learn About How Computers Work with These Vids)[<https://www.youtube.com/playlist?list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN>-] 
