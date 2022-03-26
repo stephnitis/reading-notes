@@ -52,3 +52,11 @@
 
 - In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input.
 - A variable declared without a value will have the value undefined
+
+**Re-declaring JS Variables**
+
+- If you re-declare a JavaScript variable declared with var, it will not lose its value.
+- You cannot re-declare a variable declared with let or const.
+
+- Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names. Using the dollar sign is not very common in JavaScript, but professional programmers often use it as an alias for the main function in a JavaScript library.
+- Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names. Using the underscore is not very common in JavaScript, but a convention among professional programmers is to use it as an alias for "private (hidden)" variables.
