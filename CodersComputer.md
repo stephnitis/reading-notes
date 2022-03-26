@@ -14,7 +14,7 @@
 
 ### [The Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php)
 
-- A **command line,** or **terminal,** is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. 
+- A **command line,** or **terminal,** is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text.
 - A *command prompt* is the input field in a text-based user interface screen for an operating system or program. A prompt in this context is something designed to elicit an action.
 - Typically a *command* is always the first thing you type. Followed by command line arguments.
   - Important to note that these are separated by spaces. **There must be a space between the command and the first command line argument also.**
@@ -23,7 +23,7 @@
 - Most commands produce *output* and it will be listed straight under the issuing of the command. Other commands just perform thie task and don't display any information unless there was an error.
 - After the command has run and the terminal is ready for you to enter another command, a prompt will be displayed. If no prompt is displayed then the command may still be running.
 - Within a terminal you have what is known as a **shell.** This is a part of the operating system that defines how the terminal will behave and look after running (or executing) commands for you.
-- Most common shell is called **bash** which stands for *Bourne again shell* 
+- Most common shell is called **bash** which stands for *Bourne again shell*
 - **Shortcuts:** When you enter commands, they are actually stored in a history. You can traverse this history using the up and down arrow keys. So don't bother re-typing out commands you have previously entered, you can usually just hit the up arrow a few times. You can also edit these commands using the left and right arrow keys to move the cursor where you want.
 
 ### [Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
@@ -51,7 +51,7 @@
   - e.g. if you were in the path /home/steph you could run the command ls ../../ and this would do a listing of the root directory.
 - **cd [location]** stands for change directory, and allows us to move around in the system
   - If you run the command cd without any arguments then it will always take you back to your home directory.
-  - May be run without a location, but usually will be run with a single command line argument which is the location we would like to change into. 
+  - May be run without a location, but usually will be run with a single command line argument which is the location we would like to change into.
   - The location is specified as a path and as such may be specified as either an absolute or relative path and using any of the path building blocks mentioned.
 - **Tab Completion** When you start typing a path (anywhere on the command line) you may hit the tab key at any time to invoke an auto complete action. If nothing happens then that means there are several possibilities. You may then continue typing and hit tab again and it will again try to auto complete for you.
 
@@ -59,15 +59,15 @@
 
 - With Linux everything under the hood is a file
   - A text file is a file, your keyboard is a file (one that the system reads from only) your monitor is a file (one that the system writes to only)
-- **File Extension:** normally a set of 2-4 characters after a full stop at the end of a file, which denotes what type of file it is. 
+- **File Extension:** normally a set of 2-4 characters after a full stop at the end of a file, which denotes what type of file it is.
 - Some common file extensions:
   - file.exe - an executable file, or program
   - file.txt - a plain text file
   - file.png, file.gif, file.jpg - an image
- - In other systems such as Windows, the extension is important and the system uses it to determine what type of file it is.
- - Under Linux the system actually ignores the extension and looks inside the file to determine what type of file it is.
- - **file [path]** command to help us find out what type of file a particular file is.
-  - command line is a path because directories are actually a special type of file, and tbus a path is a means to get to a particular location in the system and that location is a file.
+- In other systems such as Windows, the extension is important and the system uses it to determine what type of file it is.
+- Under Linux the system actually ignores the extension and looks inside the file to determine what type of file it is.
+- **file [path]** command to help us find out what type of file a particular file is.
+- command line is a path because directories are actually a special type of file, and tbus a path is a means to get to a particular location in the system and that location is a file.
 - **Linux is case sensitive**
 - Spaces in file names are valid, but spaces in the command line are also how we separate items; how we know what is the program name and can identify each command line argument.
   - Use quotes around the entire item to indicate a single item
