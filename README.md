@@ -8,6 +8,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 ### Table of Contents
 
 - [Growth Mindset](./GrowthMindset.md)
+- [Learning Markdown](./markdown.md)
 - [Coders Computer](./CodersComputer.md)
 - [Revisions and the Cloud](./RevisionsandtheCloud.md)
 - [Structure Web Pages with HTML](./htmlstructure.md)
