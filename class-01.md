@@ -72,6 +72,15 @@
 
 ### Chapter 1: The ABC of Programming
 
+- A script is  a series of instructions that the computer can follow in order to achieve a goal.
+- Each time the script runs, it might only use a subset of all the instructions.
+- Computer approach tasks in a different way than humans, so your insturctions must let the computer solve the task programmatically.
+- To approach writing a script, break down your goal into a series of tasks, and then work out each step needed to complete that task (a flowchart can help).
+- Computers create models of the world using data.
+- Models use objects to represent physical things. Objects can have: properties that tell us about the object; methods that perform tasks using the properties of that object; events which are triggered when a user interacts with the computer.
+- Programmers can write code to say "When this event occurs, run that code."
+- Web browsers use HTML markup to create a model of the web page. Each element creates its own node (which is a kind of object).
+- To make web pages interactive, you write code that uses the browser's model of the web page.
 - It is best to keep JavaScript code in its own JavaScript file. JavaScript files are text files (like HTML pages and CSS style sheets), but they have the.js extension.
 - The HTML `<script>` element is used in HTML pages to tell the browser to load the JavaScript file (rather like the `<link>` element an be used to load a CSS file).
 - If you view the source code of the page in the browser, the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.
@@ -81,4 +90,4 @@
 1. The `<meta>` element and how to apply it in order to generate traffic to a page.
 2. HTML5 layout elements, their best uses and a better comprehension of when to apply them versus the use of the `<div>` element.
 3. Understanding how to code for older browsers so that my site can be rendered properly on any system, and maintains accessibility to multiple demographics.
-4. A more in depth comprehension of obtaining, interpreting and implementing user data to create an effective design and user experience.
+4. A more in depth comprehension of obtaining, interpreting and implementing user data to create an effective design and user experience. (Effective use of visual hierarchy, grouping & navigation)
