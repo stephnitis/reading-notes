@@ -56,17 +56,17 @@
 
 - Allowing us to access content such as:
 
-    - Selecting text within all of the `<h1>` elements on a page
-    - Selecting elements that have a class attribute with a value of note
-    - Finding out what was entered into a text input
+  - Selecting text within all of the `<h1>` elements on a page
+  - Selecting elements that have a class attribute with a value of note
+  - Finding out what was entered into a text input
 
 - Allowing us to modify content such as:
-    - Adding or removing elements, attributes and text to a page
-    - Changing the value of class attributes to trigger new CSS rules to those elements
-    - Change the size or position of an image element
+  - Adding or removing elements, attributes and text to a page
+  - Changing the value of class attributes to trigger new CSS rules to those elements
+  - Change the size or position of an image element
 
 - Allowing us to program rules
-    - You can specify a set of steps for the browser to follow which allows it to access or change the content of a page.
+  - You can specify a set of steps for the browser to follow which allows it to access or change the content of a page.
 
 - Allowing us to react to events. Meaning you can specify that a script should run when a specific event has occured (such as a button is pressed).
 
