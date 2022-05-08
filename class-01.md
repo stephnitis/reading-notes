@@ -75,3 +75,10 @@
 - It is best to keep JavaScript code in its own JavaScript file. JavaScript files are text files (like HTML pages and CSS style sheets), but they have the.js extension.
 - The HTML `<script>` element is used in HTML pages to tell the browser to load the JavaScript file (rather like the `<link>` element an be used to load a CSS file).
 - If you view the source code of the page in the browser, the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.
+
+### Things I want to know more about
+
+1. The `<meta>` element and how to apply it in order to generate traffic to a page.
+2. HTML5 layout elements, their best uses and a better comprehension of when to apply them versus the use of the `<div>` element.
+3. Understanding how to code for older browsers so that my site can be rendered properly on any system, and maintains accessibility to multiple demographics.
+4. 
