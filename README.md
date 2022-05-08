@@ -21,7 +21,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 ### Code 201 Reading Notes
 #### Table of Contents
 
-1. [Introductory HTML & JavaScript](./intro.md)
+1. [Introductory HTML & JavaScript](./class-01.md)
 2. HTML Text, CSS Introduction, and Basic JavaScript Instructions
 3. HTML Lists, CSS Boxes, JS Control Flow
 4. HTML Links, CSS Layout, JS Functions
