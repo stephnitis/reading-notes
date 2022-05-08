@@ -81,4 +81,4 @@
 1. The `<meta>` element and how to apply it in order to generate traffic to a page.
 2. HTML5 layout elements, their best uses and a better comprehension of when to apply them versus the use of the `<div>` element.
 3. Understanding how to code for older browsers so that my site can be rendered properly on any system, and maintains accessibility to multiple demographics.
-4. 
+4. A more in depth comprehension of obtaining, interpreting and implementing user data to create an effective design and user experience.
