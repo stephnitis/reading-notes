@@ -19,3 +19,13 @@
 - Opening tags can carry attributes, which tell us more about the content of that element.
 - Attributes require a name and a value.
 - To learn HTML you need to know what tags are available for you to use, what they, and where they can go.
+
+### Chapter 8: Extra Markup
+
+- DOCTYPES tell browsers which version of HTML you are using
+- You can add comments to your code between the `<!-- and -->` markers
+- The id and class attributes allow you to identify particular elements.
+- The `<div>` and `<span>` elements allow you too group block-level and inline elements together.
+- `<iframes>` cut windows into your web pages through which other pages can be displayed.
+- The `<meta>` tag allows you to supply all kinds of information about your webpage.
+- Escape characters are used to include special characters in your pages.
