@@ -8,21 +8,21 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 ### Code 102 Reading Notes
 #### Table of Contents
 
-- [Growth Mindset](./GrowthMindset.md)
-- [Learning Markdown](./markdown.md)
-- [Coders Computer](./CodersComputer.md)
-- [Revisions and the Cloud](./RevisionsandtheCloud.md)
-- [Structure Web Pages with HTML](./htmlstructure.md)
-- [Design Web Pages with CSS](./cssdesign.md)
-- [Dynamic web pages with JavaScript](./jsnotes.md)
-- [Programming with Javascript](./programwjs.md)
-- [Operators & Loops](./operatorsnloops.md)
+- [Growth Mindset](./code102/GrowthMindset.md)
+- [Learning Markdown](./code102/markdown.md)
+- [Coders Computer](./code102/CodersComputer.md)
+- [Revisions and the Cloud](./code102/RevisionsandtheCloud.md)
+- [Structure Web Pages with HTML](./code102/htmlstructure.md)
+- [Design Web Pages with CSS](./code102/cssdesign.md)
+- [Dynamic web pages with JavaScript](./code102/jsnotes.md)
+- [Programming with Javascript](./code102/programwjs.md)
+- [Operators & Loops](./code102/operatorsnloops.md)
 
 ### Code 201 Reading Notes
 #### Table of Contents
 
-1. [Introductory HTML & JavaScript](./class-01.md)
-2. HTML Text, CSS Introduction, and Basic JavaScript Instructions
+1. [Introductory HTML & JavaScript](./code201/class-01.md)
+2. [HTML Text, CSS Introduction, and Basic JavaScript Instructions](./code201/class-02.md)
 3. HTML Lists, CSS Boxes, JS Control Flow
 4. HTML Links, CSS Layout, JS Functions
 5. HTML Images; CSS Color & Text
