@@ -61,3 +61,5 @@
 - There are three types of loop: `for, while,` and `do...while.` Each repeats a set of statements.
 
 ### Things I want to learn more about:
+
+Generally right now I just want to learn more practical applications of these basic principals. Using the material about decisions in loops in an effective way to give a valuable user experience etc.
