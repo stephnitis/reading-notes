@@ -12,7 +12,19 @@
 
 - CSS treats each HTML element as if it appears inside its own box and uses rules to indicate how that element should look.
 - Rules are made up of selectors (that specify the elements the rule applies to) and declarations (that indicate what these elements should look like)
-- Different types of selectors allow you to target your rules at different elements.
+- Different types of selectors allow you to target your rules at different elements. For example:
+  - **Universal Selector:** Applies to all elements in the document
+  - **Type Selector:** Matches element names
+  - **Class Selector:** Matches an element whose class attribute has a value that matches the one specified after the period (or full stop) symbol
+  - **ID Selector:** Matches an element whose id attribute has a value that matches the one specified after the pound or hash symbol
+  - **Child Selector:** Matches an element that is a direct child of another
+  - **Descendant Selector:** Matches an element that is a descendent of another specified element (not just a direct child of that element)
+  - **Adjacent Sibling Selector:** Matches an element that is the next sibling of another
+  - **General Sibling Selector:** Matches an element that is a sibling of another, although it does not have to be the directly preceding element.
+- How Rules Cascade:
+  - *Last Rule:* If the two selectors are identical, the latter of the two will take precedence.
+  - *Specificity:* If one selector is more specific than the others, the more specific rule will take precedence over more general ones
+  - *Important:* You can add `!important` after any property value to indicate that it should be more important than other rules that apply to the same element
 - Declarations are made up of two parts: the properties of the element that you want to change, and the values of those properties. For example, the font-family property sets the choice of font, and the value arial specifies Arial as the preferred typeface.
 - CSS rules usually appear in a separate document, although they may appear within an HTML page.
 
