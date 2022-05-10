@@ -33,9 +33,18 @@
 ### Chapter 2: Basic JavaScript Instructions
 
 - A script is made up of a series of statements. Each statement is like a step in a recipe.
+- **Code blocks:** statements surrounded by curly braces
 - Scripts contain very precise instructions. For example, you might specify that a value must be remembered before creating a calculation using that value.
-- Variables are used to temporarily store pieces of information used in the script.
-- Arrays are special types of variables that store more than one piece of related information.
+- **Multi-Line Comments:** starting and ending with `*/`
+- **Single-Line Comments:** starting and ending with `//`
+- Variables are used to temporarily store pieces of information used in the script. They can be used to represent values in your script that are likely to change. The result is said to be calculated or computed using the data stored in the variables.
+- 6 Rules for Naming Variables:
+  1. The name must begin with a letter, dollar sign or an underscore. It must not start with a number.
+  2. The name can contain letters, numbers, dollar signs, or an underscore. You may not use a dash or a period.
+  3. You cannot use keywords or reserved words. Keywords are special words that  tell the interpreter to do something. For example, `var` is a keyword used to declare a variable. Reserved words are ones that may be used in a future version of JavaScript.
+  4. All variables are case sensitive, so `score` and `Score` would be different variable names.  5. Use a name that describes the kind of information that the variable stores.
+  5. If your variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word. You can also use an underscore between each word.
+- Arrays are special types of variables that store more than one piece of related information. You should consider using an array whenever you are working with a list or a set of values that are related to each other.
 - JavaScript distinguishes between numbers (0-9), strings (text), and Boolean values (true or fales).
 -Expressions evaluate into a single value.
 -Expressions rely on operators to calculate a value.
