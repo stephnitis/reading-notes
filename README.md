@@ -23,7 +23,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 
 1. [Introductory HTML & JavaScript](./code201/class-01.md)
 2. [HTML Text, CSS Introduction, and Basic JavaScript Instructions](./code201/class-02.md)
-3. HTML Lists, CSS Boxes, JS Control Flow
+3. [HTML Lists, CSS Boxes, JS Control Flow](./code201/class-03.md)
 4. HTML Links, CSS Layout, JS Functions
 5. HTML Images; CSS Color & Text
 6. JS Object Literals; The DOM
