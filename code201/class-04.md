@@ -64,4 +64,4 @@
 3. Learning from fellow students
 4. Social skills
 5. Job interview readiness
-6. Work environment readiness
+6. Work environment readiness 
