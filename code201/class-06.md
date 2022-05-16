@@ -48,7 +48,7 @@ In order to check whether the contents (not the reference) of two objects are th
   - Iterate through the object and check that each key and value match. This can be tricky because an object’s property can be an object in itself.
   - Convert the object to a suitable primitive before doing the equality check.
 
-  [Understanding the problem domain is the hardest part of programming](https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming)
+### [Understanding the problem domain is the hardest part of programming](https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming)
 
 If understanding the problem domain is the hardest part of programming and you want to make programming easier, you can do one of two things:
   1. Make the problem domain easier
