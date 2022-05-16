@@ -26,7 +26,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 3. [HTML Lists, CSS Boxes, JS Control Flow](./code201/class-03.md)
 4. [HTML Links, CSS Layout, JS Functions](./code201/class-04.md)
 5. [HTML Images; CSS Color & Text](./code201/class-05.md)
-6. JS Object Literals; The DOM
+6. [JS Object Literals; The DOM](./code201/class-06.md)
 7. HTML Tables; JS Constructor Functions
 8. More CSS Layout
 9. Forms and Events
