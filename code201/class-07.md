@@ -37,3 +37,19 @@
 - The `floor()` method is used to specifically round a number down
 - In order to work with dates, you create an instance of the `Date` object.
 - A visitor's location mayh affect time zones and languages spoken. Programmers use the term *locale* to refer to this kind of location-based information.
+
+### [Domain Modeling](https://github.com/codefellows/domain_modeling#domain-modeling)
+
+- Domain modeling is the process of creating a conceptual model in code for a specific problem. 
+- A model describes the various entities, their attributes and behaviors, as well as the constraints that govern the problem domain
+- An entity that stores data in properties and encapsulates behaviors in methods is commonly referred to as an object-oriented model.
+- Methods can be added to a constructor function's **prototype**. Think of the prototype as an object's stunt double. Whenever a scene is too dangerous, you can substitute in the prototype to do the work while the object takes all the glory.
+
+**Tips to follow when building your own domain models.**
+
+  1. When modeling a single entity that'll have many instances, build self-contained objects with the same attributes and behaviors.
+  2. Model its attributes with a constructor function that defines and initializes properties.
+  3. Model its behaviors with small methods that focus on doing one job well.
+  4. Create instances using the `new` keyword followed by a call to a constructor function.
+  5. Store the newly created object in a variable so you can access its properties and methods from outside.
+  6. Use the `this` variable within methods so you can access the object's properties and methods from inside.
