@@ -19,11 +19,6 @@
 
 [MDN Article on Audio & Video Elements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs)
 
-- TML5 comes with elements for embedding rich media in documents — `<video>` and `<audio>` — which in turn come with their own APIs for controlling playback, seeking, etc. Typical implementation:
-   `<video controls>`
-    `<source src="rabbit320.mp4" type="video/mp4">`
-  `<source src="rabbit320.webm" type="video/webm">`
-  `<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>`
-  `</video>`
+- TML5 comes with elements for embedding rich media in documents — `<video>` and `<audio>` — which in turn come with their own APIs for controlling playback, seeking, etc. 
 - `controls` enables the default set of playback controls. If you don't specify this, you get no playback controls.
 - Part of the HTML5 spec, the `HTMLMediaElement` API provides features to allow you to control video and audio players programmatically — for example `HTMLMediaElement.play()`, `HTMLMediaElement.pause()`, etc. This interface is available to both `<audio>` and `<video>` elements, as the features you'll want to implement are nearly identical.
