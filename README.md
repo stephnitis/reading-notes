@@ -32,7 +32,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 9. [Forms and Events](./code201/class-09.md)
 10. [JS Debugging](./code201/class-10.md)
 11. [Assorted Topics](./code201/class-11.md)
-12. Docs for the HTML `<canvas>` Element & Chart.js
+12. [Docs for the HTML `<canvas>` Element & Chart.js](./code201/class-12.md)
 13. Local Storage
 14. CSS Transforms, Transitions, and Animations
 15. What Google Learned About Teams
