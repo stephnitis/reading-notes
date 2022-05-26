@@ -40,7 +40,7 @@
 
 ### Additional References:
 
-[Code to animate buttons](https://codepen.io/retyui/pen/ByoaXV)
-[CSS3 Animations: Keyframes](https://codepen.io/akshaychauhan/pen/dyBqVo)
-[404](https://codepen.io/kieranfivestars/pen/MYdQxX)
-[Pure Bounce Animation](https://codepen.io/dp_lewis/pen/QWMxRR)
+- [Code to animate buttons](https://codepen.io/retyui/pen/ByoaXV)
+- [CSS3 Animations: Keyframes](https://codepen.io/akshaychauhan/pen/dyBqVo)
+- [404](https://codepen.io/kieranfivestars/pen/MYdQxX)
+- [Pure Bounce Animation](https://codepen.io/dp_lewis/pen/QWMxRR)
