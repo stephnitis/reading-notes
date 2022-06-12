@@ -1,12 +1,14 @@
+# Reading Notes
+
 ## Who Am I?
 
-#### My name is Stephanie Hill, and I am a student at Code Fellows!
-
+**My name is Stephanie Hill, and I am a student at Code Fellows!**
 
 Learn more about me on my [profile page](https://github.com/stephnitis)
 
-### Code 102 Reading Notes
-#### Table of Contents
+## Code 102 Reading Notes
+
+### Table of Contents:
 
 - [Growth Mindset](./code102/GrowthMindset.md)
 - [Learning Markdown](./code102/markdown.md)
@@ -18,8 +20,9 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - [Programming with Javascript](./code102/programwjs.md)
 - [Operators & Loops](./code102/operatorsnloops.md)
 
-### Code 201 Reading Notes
-#### Table of Contents
+## Code 201 Reading Notes
+
+### Table of Contents:
 
 1. [Introductory HTML & JavaScript](./code201/class-01.md)
 2. [HTML Text, CSS Introduction, and Basic JavaScript Instructions](./code201/class-02.md)
@@ -36,3 +39,7 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 13. [Local Storage](./code201/class-13.md)
 14. [CSS Transforms, Transitions, and Animations](./code201/class-14a.md)
 15. [What Google Learned About Teams](./code201/class-14b.md)
+
+## Code 301 Reading Notes
+
+### Table of Contents
