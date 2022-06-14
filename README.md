@@ -43,3 +43,6 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 ## Code 301 Reading Notes
 
 ### Table of Contents
+
+1. [Introduction to React and Components](./code301/class01.md)
+2. [State and Props](./code301/class02.md)
