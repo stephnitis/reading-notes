@@ -1,6 +1,6 @@
 # Passing Functions as Props
 
-## [https://reactjs.org/docs/lists-and-keys.html](React Docs - lists and keys)
+## [React Docs - lists and keys](https://reactjs.org/docs/lists-and-keys.html)
 
 ### 1. What does .map() return?
 
