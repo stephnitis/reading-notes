@@ -46,3 +46,5 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 
 1. [Introduction to React and Components](./code301/class01.md)
 2. [State and Props](./code301/class02.md)
+3. [Passing Functions as Props](./code301/class03.md)
+4. [React and Forms](./code301/class03.md)
