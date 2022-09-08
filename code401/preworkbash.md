@@ -33,3 +33,29 @@
 - **ls** with a command line argument ( /etc ) tells **ls** not to list our current directory but instead to list that directories contents.
 
 - Whenever we refer to either a file or directory on the command line, we are in fact referring to a *path*. ie. *A path is a means to get to a particular file or directory on the system.*
+
+- The file system under linux is a hierarchical structure. At the very top of the structure is what's called the *root directory*. It is denoted by a single slash ( / ). It has subdirectories, they have subdirectories and so on. Files may reside in any of these directories.
+
+- *Absolute paths* specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
+
+- *Relative paths* specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
+
+**Building blocks you may use to help build your paths:**
+
+1. `~` (tilde) - This is a shortcut for your home directory. eg, if your home directory is /home/ryan then you could refer to the directory Documents with the path /home/ryan/Documents or ~/Documents
+
+2. `.` (dot) - This is a reference to your current directory. eg in the example above we referred to Documents on line 4 with a relative path. It could also be written as ./Documents (Normally this extra bit is not required but in later sections we will see where it comes in handy).
+
+3. `..` (dotdot)- This is a reference to the parent directory. You can use this several times in a path to keep going up the hierarchy. eg if you were in the path /home/ryan you could run the command ls ../../ and this would do a listing of the root directory.
+
+- In order to move around in the system we use a command called **cd** which stands for change directory. If you run the command cd without any arguments then it will always take you back to your home directory. The command cd may be run without a location but usually will be run with a single command line argument (location we would like to change into). The location is specified as a path and as such may be specified as either an absolute or relative path and using any of the path building blocks mentioned above.
+
+- **Tab Completion:** When you start typing a path you may hit the Tab key on your keyboard at any time which will invoke an auto complete action. If nothing happens then that means there are several possibilities. If you hit Tab again it will show you those possibilities. You may then continue typing and hit Tab again and it will again try to auto complete for you.
+
+- `/etc` - Stores config files for the system.
+- `/var/log` - Stores log files for various system programs.
+- `/bin` - The location of several commonly used programs.
+- `/usr/bin` - Another location for programs on the system.
+
+## [More About Files](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
+
