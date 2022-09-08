@@ -48,3 +48,20 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 2. [State and Props](./code301/class02.md)
 3. [Passing Functions as Props](./code301/class03.md)
 4. [React and Forms](./code301/class03.md)
+5. [Putting It All Together](./code301/class05.md)
+6. [Node.JS](./code301/class06.md)
+7. [REST](./code301/class07.md)
+8. [APIs](./code301/class08.md)
+9. [Functional Programming](./code301/class09.md)
+10. [In Memory Storage](./code301/class10.md)
+11. [Mongo and Mongoose](./code301/class11.md)
+12. [CRUD](./code301/class12.md)
+13. [More CRUD](./code301/class13.md)
+14. [Diversity & Inclusion in the Tech Industry](./code301/class14.md)
+15. [Authentication](./code301/class15.md)
+
+## Code 401 Reading Notes
+
+### Table of Contents
+
+[Prework: Bash Practice](./code401/preworkbash.md)
