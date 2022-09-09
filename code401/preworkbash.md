@@ -59,3 +59,36 @@
 
 ## [More About Files](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
 
+*Under the hood, everything is actually a file. A text file is a file, a directory is a file, your keyboard is a file (one that the system reads from only), your monitor is a file (one that the system writes to only) etc.*
+
+**Linux is an Extensionless System:**
+
+- A file extension is normally a set of 2 - 4 characters after a full stop at the end of a file, which denotes what type of file it is.
+
+Common Extensions:
+
+- file.exe - an executable file, or program.
+- file.txt - a plain text file.
+- file.png, file.gif, file.jpg - an image.
+
+- In other systems such as Windows the extension is important and the system uses it to determine what type of file it is. Under Linux the system actually ignores the extension and looks inside the file to determine what type of file it is.
+
+- It can sometimes be hard to know for certain what type of file a particular file is. There is a command called **file** which we can use to find this out. e.g. `file [path]`
+
+- Whenever we specify a file or directory on the command line it is actually a path, and because directories are actually just a special type of file, it would be accurate to say that a path is a means to get to a particular location in the system and that location is a file.
+
+- **Linux is case sensitive**
+
+**Spaces in names:**
+
+- Spaces can indicate two command line arguments, as such **cd** moves into whichever directory is specified by the first command line argument only.
+
+- Can use quotes to get around this: anything inside quotes is considered a single item.
+
+- Another method is to use what is called an escape character, which is a backslash ( \ ). What the backslash does is escape (or nullify) the special meaning of the next character.
+
+*In the previous section we learnt about something called Tab Completion. If you use that before encountering the space in the directory name then the terminal will automatically escape any spaces in the name for you.*
+
+- If the file or directory's name begins with a . (full stop) then it is considered to be hidden.
+
+- The command **ls** which we have seen in the previous section will not list hidden files and directories by default. We may modify it by including the command line option **-a** so that it does show hidden files and directories.
