@@ -24,13 +24,13 @@ Lesson 13
 ![Lesson 13 Complete](/img/401.sqlbolt/sqlbolt_DM13.png)
 
 Lesson 14
-![Lesson Fourteen Complete](/img/401.sqlbolt/sqlbolt_DM14.png)
+![Lesson 14 Complete](/img/401.sqlbolt/sqlbolt_DM14.png)
 
 Lesson 15
 ![Lesson 15 Complete](/img/401.sqlbolt/sqlbolt_DM15.png)
 
 Lesson 16
-![Lesson Four Complete](/img/401.sqlbolt/sqlbolt_DM16.png)
+![Lesson 16 Complete](/img/401.sqlbolt/sqlbolt_DM16.png)
 
 Lesson 17
 ![Lesson 17 Complete](/img/401.sqlbolt/sqlbolt_DM17.png)
