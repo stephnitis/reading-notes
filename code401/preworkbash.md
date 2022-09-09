@@ -92,3 +92,51 @@ Common Extensions:
 - If the file or directory's name begins with a . (full stop) then it is considered to be hidden.
 
 - The command **ls** which we have seen in the previous section will not list hidden files and directories by default. We may modify it by including the command line option **-a** so that it does show hidden files and directories.
+
+## [Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php)
+
+**The manual pages are a set of pages that explain every command available on your system including what they do, the specifics of how you run them and what command line arguments they accept.**
+
+- Invoke with `man <command to look up>`
+
+- *Synopsis:* a quick overview of how the command should be run. Square brackets ( [ ] ) indicate that something is optional.
+
+- To exit the man pages press 'q' for quit.
+
+- Keyword search on the Manual pages: `man -k <search term>`
+
+- Search within a manual page: in the particular manual page you would like to search press forward slash '/' followed by the term you would like to search for and hit 'enter' If the term appears multiple times you may cycle through them by pressing the 'n' button for next.
+
+- Long hand command line options begin with two dashes ( -- ) and short hand options begin with a single dash ( - ). When we use a single dash we may invoke several options by placing all the letters representing those options together after the dash.
+
+## [File Manipulation!](https://ryanstutorials.net/linuxtutorial/filemanipulation.php)
+
+- Creating a directory: **mkdir which is short for Make Directory.**
+
+- **-p** tells mkdir to make parent directories as needed
+
+- **-v** makes mkdir tell us what it is doing
+
+- The command to remove a directory is **rmdir**, short for remove directory.
+
+- **touch** creates file
+
+- touch is actually a command we may use to modify the access and modification times on a file (normally not needed but sometimes when you're testing a system that relies on file access or modification times it can be useful).
+
+- make a duplicate of a file or directory: **cp** which stands for copy.
+
+- When we use cp the destination can be a path to either a file or directory. If it is to a file then it will create a copy of the source but name the copy the filename specified in destination. If we provide a directory as the destination then it will copy the file into that directory and the copy will have the same name as the source.
+
+- Using the **-r** option, which stands for recursive, we may copy directories. Recursive means that we want to look at a directory and all files and directories within it, and for subdirectories, go into them and do the same thing and keep doing this.
+
+- To move a file we use the command **mv** which is short for move. It operates in a similar way to cp. One slight advantage is that we can move directories without having to provide the -r option.
+
+- Normally mv will be used to move a file or directory into a new directory. We may provide a new name for the file or directory and as part of the move it will also rename it. Now if we specify the destination to be the same directory as the source, but with a different name, then we have effectively used mv to rename a file or directory.
+
+- The command to remove or delete a file is **rm** which stands for remove.
+
+- When rm is run with the -r option it allows us to remove directories and all files and directories contained within.
+
+- A good option to use in combination with r is i which stands for interactive. This option will prompt you before removing each file and directory and give you the option to cancel the command.
+
+## [CHEATSHEET](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
