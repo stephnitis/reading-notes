@@ -64,4 +64,5 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 
 ### Table of Contents
 
+[Prework: SQL Practice](./code401/preworksql.md)
 [Prework: Bash Practice](./code401/preworkbash.md)
