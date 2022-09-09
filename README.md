@@ -59,6 +59,8 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 13. [More CRUD](./code301/class13.md)
 14. [Diversity & Inclusion in the Tech Industry](./code301/class14.md)
 15. [Authentication](./code301/class15.md)
+16. [Classes](./code301/classes.md)
+17. [Arrow Functions](./code301/arrowfunctions.md)
 
 ## Code 401 Reading Notes
 
