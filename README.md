@@ -68,3 +68,4 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 
 - [Prework: SQL Practice](./code401/preworksql.md)
 - [Prework: Bash Practice](./code401/preworkbash.md)
+- [Prework: GIT Practice](./code401/preworkgit.md)
