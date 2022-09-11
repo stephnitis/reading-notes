@@ -1,5 +1,7 @@
 # [Learn Git Branching](https://learngitbranching.js.org/)
 
+**Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.**
+
 ## Git Commits
 
 - A commit in a git repository records a snapshot of all the (tracked) files in your directory.
