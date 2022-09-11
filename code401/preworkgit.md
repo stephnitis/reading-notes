@@ -60,3 +60,23 @@ Two primary ways to undo changes:
 ![git reset](../img/401.git/gitreset.png)
 
 ![git revert](../img/401.git/gitrevert.png)
+
+## Moving Work Around
+
+### Git Cherry-pick
+
+`git cherry-pick <Commit1> <Commit2> <...>`
+
+- A very straightforward way of saying that you would like to copy a series of commits below your current location (`HEAD`). 
+
+![git cherr-pick](../img/401.git/cherrypick.png)
+
+### Git Interactive Rebase
+
+- Allows you to review a series of commits you're about to rebase
+
+- Simply uses the `rebase` command with the `-i` option.
+
+- If you include this option, git will open up a UI to show you which commits are about to be copied below the target of the rebase. It also shows their commit hashes.
+
+- You must open up a file in a text editor like `vim`.
