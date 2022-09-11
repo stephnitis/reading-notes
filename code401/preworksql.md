@@ -56,31 +56,138 @@ WHERE condition
 
 ![Lesson Three Complete](../img/401.sqlbolt/sqlboltqueries3.png)
 
-Lesson 4
+### Lesson 4
+
+- SQL provides a convenient way to discard rows that have a duplicate column value by using the DISTINCT keyword.
+
+Select query with unique results:
+
+```SQL
+SELECT DISTINCT column, another_column, …
+FROM mytable
+WHERE condition(s);
+```
+
+- SQL provides a way to sort your results by a given column in ascending or descending order using the ORDER BY clause.
+
+- When an ORDER BY clause is specified, each row is sorted alpha-numerically based on the specified column's value. In some databases, you can also specify a collation to better sort data containing international text.
+
+Select query with ordered results:
+
+```SQL
+SELECT column, another_column, …
+FROM mytable
+WHERE condition(s)
+ORDER BY column ASC/DESC;
+```
+
+- The LIMIT clause will reduce the number of rows to return, and the optional OFFSET will specify where to begin counting the number rows from.
+
+- LIMIT and OFFSET are applied relative to the other parts of a query: they are generally done last after the other clauses have been applied.
+
+Select query with limited rows:
+
+```SQL
+SELECT column, another_column, …
+FROM mytable
+WHERE condition(s)
+ORDER BY column ASC/DESC
+LIMIT num_limit OFFSET num_offset;
+```
+
 ![Lesson Four Complete](../img/401.sqlbolt/sqlboltqueries4.png)
 
-Lesson 5
+### Lesson 5: Review
+
 ![Lesson Five Complete](../img/401.sqlbolt/sqlboltqueries%20review1.png)
 
-Lesson 6
+### Lesson 6
+
+- Entity data is often broken down into pieces and stored across multiple orthogonal tables using a process known as *normalization*.
+
+- Database normalization is useful because it minimizes duplicate data in any single table, and allows for data in the database to grow independently of each other. As a trade-off, queries get slightly more complex since they have to be able to find data from different parts of the database, and performance issues can arise when working with many large tables.
+
+- Tables that share information about a single entity need to have a primary key that identifies that entity uniquely across the database. One common primary key type is an auto-incrementing integer (because they are space efficient), but it can also be a string, hashed value, so long as it is unique.
+
+- Using the JOIN clause in a query, we can combine row data across two separate tables using this unique key.
+
+- The INNER JOIN is a process that matches rows from the first table and the second table which have the same key (as defined by the ON constraint) to create a result row with the combined columns from both tables.
+
+Select query with INNER JOIN on multiple tables:
+
+```SQL
+SELECT column, another_table_column, …
+FROM mytable
+INNER JOIN another_table 
+    ON mytable.id = another_table.id
+WHERE condition(s)
+ORDER BY column, … ASC/DESC
+LIMIT num_limit OFFSET num_offset;
+```
+
+- *You might see queries where the INNER JOIN is written simply as a JOIN. These two are equivalent, but we will continue to refer to these joins as inner-joins because they make the query easier to read once you start using other types of joins*
+
 ![Lesson Six Complete](../img/401.sqlbolt/sqlboltqueries6.png)
 
-Lesson 13
+### Lesson 13
+
+- In SQL, the database schema is what describes the structure of each table, and the datatypes that each column of the table can contain.
+
+- When inserting data into a database, we need to use an INSERT statement, which declares which table to write into, the columns of data that we are filling, and one or more rows of data to insert. In general, each row of data you insert should contain values for every corresponding column in the table. You can insert multiple rows at a time by just listing them sequentially.
+
+Insert statement with values for all columns:
+
+```SQL
+INSERT INTO mytable
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+       …;
+```
+
+- In some cases, if you have incomplete data and the table contains columns that support default values, you can insert rows with only the columns of data you have by specifying them explicitly.
+
+- In these cases, the number of values need to match the number of columns specified.
+
+Insert statement with specific columns:
+
+```SQL
+INSERT INTO mytable
+(column, another_column, …)
+VALUES (value_or_expr, another_value_or_expr, …),
+      (value_or_expr_2, another_value_or_expr_2, …),
+      …;
+```
+
+- You can use mathematical and string expressions with the values that you are inserting. This can be useful to ensure that all data inserted is formatted a certain way.
+
+Insert statement with expressions:
+
+```SQL
+INSERT INTO boxoffice
+(movie_id, rating, sales_in_millions)
+VALUES (1, 9.9, 283742034 / 1000000);
+```
+
 ![Lesson 13 Complete](../img/401.sqlbolt/sqlbolt_DM13.png)
 
-Lesson 14
+### Lesson 14
+
 ![Lesson 14 Complete](../img/401.sqlbolt/sqlbolt_DM14.png)
 
-Lesson 15
+### Lesson 15
+
 ![Lesson 15 Complete](../img/401.sqlbolt/sqlbolt_DM15.png)
 
-Lesson 16
+### Lesson 16
+
 ![Lesson 16 Complete](../img/401.sqlbolt/sqlbolt_DM16.png)
 
-Lesson 17
+### Lesson 17
+
 ![Lesson 17 Complete](../img/401.sqlbolt/sqlbolt_DM17.png)
 
-Lesson 18
+### Lesson 18
+
 ![Lesson 18 Complete](../img/401.sqlbolt/sqlbolt_DM18.png)
 
 ## [Learn SQL](https://cdn2.hubspot.net/hubfs/392937/Learn%20SQL.pdf?__hstc=158613477.01e6fbf0aa8dadc2cabb137b246a03be.1662315576791.1662315576791.1662315576791.1&__hssc=158613477.1.1662315576791&__hsfp=12106724&hsCtaTracking=5829d6cd-cd1b-47f8-92d1-0b3ba8bc9ce7%7Ca4ebeaea-cc21-4256-99ef-eeed3c103120)
