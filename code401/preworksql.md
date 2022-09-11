@@ -2,13 +2,58 @@
 
 ## [SQLBolt](https://sqlbolt.com/)
 
-Lesson 1
+### Lesson 1
+
+*To retrieve data from a SQL database, we need to write SELECT statements, which are often colloquially refered to as queries. A query in itself is just a statement which declares what data we are looking for, where to find it in the database, and optionally, how to transform it before it is returned.*
+
+Select query for specific columns:
+
+```SQL
+SELECT column, another_column, …
+FROM mytable;
+```
+
+- The result of this query will be a two-dimensional set of rows and columns, effectively a copy of the table, but only with the columns that we requested.
+
+If we want to retrieve absolutely all the columns of data from a table, we can then use the asterisk (*) shorthand in place of listing all the column names individually:
+
+```SQL
+SELECT * 
+FROM mytable;
+```
+
 ![Lesson One Complete](../img/401.sqlbolt/sqlboltqueries1.png)
 
-Lesson 2
+### Lesson 2
+
+*In order to filter certain results from being returned, we need to use a WHERE clause in the query. The clause is applied to each row of data by checking specific column values to determine whether it should be included in the results or not.*
+
+Select query with constraints:
+
+```SQL
+SELECT column, another_column, …
+FROM mytable
+WHERE condition
+    AND/OR another_condition
+    AND/OR …;
+```
+
+- More complex clauses can be constructed by joining numerous AND or OR logical keywords:
+
+![Operator and Condition Table](../img/401.sqlbolt/sqllesson2table.png)
+
+- SQL doesn't require you to write the keywords all capitalized, but as a convention, it helps people distinguish SQL keywords from column and tables names, and makes the query easier to read.
+
 ![Lesson Two Complete](../img/401.sqlbolt/sqlboltqueries2.png)
 
-Lesson 3
+### Lesson 3
+
+- When writing WHERE clauses with columns containing text data, SQL supports a number of useful operators to do things like case-insensitive string comparison and wildcard pattern matching
+
+- All strings must be quoted so that the query parser can distinguish words in the string from SQL keywords.
+
+![Operator and Condition Table](../img/401.sqlbolt/sqllesson3table.png)
+
 ![Lesson Three Complete](../img/401.sqlbolt/sqlboltqueries3.png)
 
 Lesson 4
