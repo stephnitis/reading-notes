@@ -1,10 +1,40 @@
 # [Learn Git Branching](https://learngitbranching.js.org/)
 
+## Git Commits
+
+- A commit in a git repository records a snapshot of all the (tracked) files in your directory.
+
+- Git wants to keep commits as lightweight as possible though, so it doesn't just blindly copy the entire directory every time you commit. It can (when possible) compress a commit as a set of changes, or a "delta", from one version of the repository to the next.
+
+- Git also maintains a history of which commits were made when.
+
+![Git Commit](../img/401.git/gitcommit.png)
+
+## Git Branches
+
+- Simply pointers to a specific commit -- nothing more.
+
+- Because there is no storage / memory overhead with making many branches, it's easier to logically divide up your work than have big beefy branches.
+
+![Git Branch](../img/401.git/gitbranch.png)
+
+![Git Checkout](../img/401.git/gitcheckout.png)
+
+## Branches and Merging
+
+- Merging in Git creates a special commit that has two unique parents.
+
+![Git Merge](../img/401.git/gitmerge.png)
+
+![Git Merge Two](../img/401.git/gitmerge2.png)
+
 ## Rebasing
 
 - Combine work between branches via *rebasing*, which essentially takes a set of commits, "copies" them, and puts them somewhere else.
 
 - The advantage is that it can be used to make a nice linear sequence of commits.
+
+![Git Rebase Demo](../img/401.git/gitrebasedemo.png)
 
 ## HEAD
 
@@ -69,7 +99,7 @@ Two primary ways to undo changes:
 
 - A very straightforward way of saying that you would like to copy a series of commits below your current location (`HEAD`). 
 
-![git cherr-pick](../img/401.git/cherrypick.png)
+![git cherry-pick](../img/401.git/cherrypick.png)
 
 ### Git Interactive Rebase
 
@@ -80,3 +110,5 @@ Two primary ways to undo changes:
 - If you include this option, git will open up a UI to show you which commits are about to be copied below the target of the rebase. It also shows their commit hashes.
 
 - You must open up a file in a text editor like `vim`.
+
+## Locally Stacked Commits
