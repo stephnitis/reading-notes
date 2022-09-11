@@ -45,3 +45,18 @@
 - One of the most common ways to use relative refs is to move branches around. You can directly reassign a branch to a commit with the `-f` option which moves (by force) the branch.
 
 ![Branch Forcing](../img/401.git/branchforcing1.png)
+
+## Reversing Changes in Git
+
+- low-level component: staging individual files or chunks
+
+- high-level component: how the changes are actually reversed
+
+Two primary ways to undo changes:
+
+  1. `git reset`
+  2. `git revert`
+
+![git reset](../img/401.git/gitreset.png)
+
+![git revert](../img/401.git/gitrevert.png)
