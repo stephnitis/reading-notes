@@ -172,13 +172,66 @@ VALUES (1, 9.9, 283742034 / 1000000);
 
 ### Lesson 14
 
+- A common task is to update existing data, which can be done using an UPDATE statement. Similar to the INSERT statement, you have to specify exactly which table, columns, and rows to update. In addition, the data you are updating has to match the data type of the columns in the table schema.
+
+- The statement works by taking multiple column/value pairs, and applying those changes to each and every row that satisfies the constraint in the WHERE clause.
+
+Update statement with values:
+
+```SQL
+UPDATE mytable
+SET column = value_or_expr, 
+    other_column = another_value_or_expr, 
+    …
+WHERE condition;
+```
+
+- **Always write the constraint first and test it in a SELECT query to make sure you are updating the right rows, and only then writing the column/value pairs to update.**
+
 ![Lesson 14 Complete](../img/401.sqlbolt/sqlbolt_DM14.png)
 
 ### Lesson 15
 
+- When you need to delete data from a table in the database, you can use a DELETE statement, which describes the table to act on, and the rows of the table to delete through the WHERE clause.
+
+Delete statement with condition:
+
+```SQL
+DELETE FROM mytable
+WHERE condition;
+```
+
+- If you decide to leave out the WHERE constraint, then all rows are removed, which is a quick and easy way to clear out a table completely (if intentional).
+
+- **It's recommended that you run the constraint in a SELECT query first to ensure that you are removing the right rows. Without a proper backup or test database, it is downright easy to irrevocably remove data, so always read your DELETE statements twice and execute once.**
+
 ![Lesson 15 Complete](../img/401.sqlbolt/sqlbolt_DM15.png)
 
 ### Lesson 16
+
+- When you have new entities and relationships to store in your database, you can create a new database table using the CREATE TABLE statement.
+
+- The structure of the new table is defined by its table schema, which defines a series of columns. Each column has a name, the type of data allowed in that column, an optional table constraint on values being inserted, and an optional default value.
+
+Create table statement with optional table constraint and default value:
+
+```SQL
+CREATE TABLE IF NOT EXISTS mytable (
+    column DataType TableConstraint DEFAULT default_value,
+    another_column DataType TableConstraint DEFAULT default_value,
+    …
+);
+```
+
+Common Supported Data Types:
+
+![Table of Supported Data Types](../img/401.sqlbolt/lesson16table.png)
+
+- Each column can have additional table constraints on it which limit what values can be inserted into that column.
+
+A Few Common Constraints:
+
+![Table of Common Constraints](../img/401.sqlbolt/lesson16table2.png)
 
 ![Lesson 16 Complete](../img/401.sqlbolt/sqlbolt_DM16.png)
 
