@@ -113,4 +113,28 @@ Two primary ways to undo changes:
 
 - You must open up a file in a text editor like `vim`.
 
+![git interactive rebase demo](../img/401.git/gitrebase-i.png)
+
 ## Locally Stacked Commits
+
+### Grabbing Just 1 Commit:
+
+- To tell git to copy only one of the commits over we can use the same commands:
+
+  - `git rebase -i`
+  - `git cherry-pick`
+
+### Juggling Commits
+
+- You have some changes (newImage) and another set of changes (caption) that are related, so they are stacked on top of each other in your repository (aka one after another).
+
+- The tricky thing is that sometimes you need to make a small modification to an earlier commit. In this case, design wants us to change the dimensions of newImage slightly, even though that commit is way back in our history
+
+The first command is git rebase -i HEAD~2
+
+We will overcome this difficulty by doing the following:
+
+- We will re-order the commits so the one we want to change is on top with git rebase -i
+- We will git commit --amend to make the slight modification
+- Then we will re-order the commits back to how they were previously with git rebase -i
+- Finally, we will move main to this updated part of the tree to finish the level (via the method of your choosing)
