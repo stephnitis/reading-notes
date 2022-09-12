@@ -134,7 +134,22 @@ The first command is git rebase -i HEAD~2
 
 We will overcome this difficulty by doing the following:
 
-- We will re-order the commits so the one we want to change is on top with git rebase -i
-- We will git commit --amend to make the slight modification
-- Then we will re-order the commits back to how they were previously with git rebase -i
+- We will re-order the commits so the one we want to change is on top with `git rebase -i`
+- We will `git commit --amend` to make the slight modification
+- Then we will re-order the commits back to how they were previously with `git rebase -i`
 - Finally, we will move main to this updated part of the tree to finish the level (via the method of your choosing)
+
+- The only issue here is that there is a lot of reordering going on, which can introduce rebase conflicts.
+
+- We can use `git cherry-pick` to avoid this
+
+### Git Tags
+
+- Branches are easy to move around and often refer to different commits as work is completed on them. Branches are easily mutated, often temporary, and always changing.
+
+- Git tags (somewhat) permanently mark certain commits as "milestones" that you can then reference like a branch.
+
+- They never move as more commits are created. You can't "check out" a tag and then complete work on that tag -- tags exist as anchors in the commit tree that designate certain spots.
+
+![git tag demo](../img/401.git/gittagdemo.png)
+
