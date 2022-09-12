@@ -289,3 +289,18 @@ So for this workflow we combine two things:
 
 ![refresher](../img/401.git/pullrabsepushrefresher.png)
 
+## Why Not Merge?
+
+There's a lot of debate about the tradeoffs between merging and rebasing in the development community. Here are the general pros / cons of rebasing:
+
+Pros:
+
+- Rebasing makes your commit tree look very clean since everything is in a straight line
+
+Cons:
+
+- Rebasing modifies the (apparent) history of the commit tree.
+
+For example, commit `C1` can be rebased past `C3`. It then appears that the work for `C1'` came after `C3` when in reality it was completed beforehand.
+
+Some developers love to preserve history and thus prefer merging. Others prefer having a clean commit tree and prefer rebasing. It all comes down to preferences.
