@@ -265,3 +265,27 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 - Fake some teamwork (1 commit)
 - Commit some work yourself (1 commit)
 - Publish your work via rebasing
+
+## Remote Rejected
+
+If you work on a large collaborative team it's likely that main is locked and requires some Pull Request process to merge changes. If you commit directly to main locally and try pushing you will be greeted with a message similar to this:
+
+`! [remote rejected] main -> main (TF402455: Pushes to this branch are not permitted; you must use a pull request to update this branch.)`
+
+- The remote rejected the push of commits directly to main because of the policy on main requiring pull requests to instead be used.
+
+- You meant to follow the process creating a branch then pushing that branch and doing a pull request, but you forgot and committed directly to main. Now you are stuck and cannot push your changes.
+
+- Create another branch called feature and push that to the remote. Also reset your main back to be in sync with the remote otherwise you may have issues next time you do a pull and someone else's commit conflicts with yours.
+
+## Merging Feature Branches
+
+Some developers only push and pull when on the main branch -- that way main always stays updated to what is on the remote (o/main).
+
+So for this workflow we combine two things:
+
+- integrating feature branch work onto main, and
+- pushing and pulling from the remote
+
+![refresher](../img/401.git/pullrabsepushrefresher.png)
+
