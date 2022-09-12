@@ -238,3 +238,15 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 ![git pull demo](../img/401.git/gitpulldemo.png)
 
 ![git pull demo two](../img/401.git/gitpulldemo2.png)
+
+## Git Push
+
+- `git push` is responsible for uploading your changes to a specified remote and updating that remote to incorporate your new commits.
+
+![git push demo](../img/401.git/gitpushdemo.png)
+
+## Diverged Work
+
+![git push reject demo](../img/401.git/gitpushreject.png)
+
+![git push fix demo](../img/401.git/gitpushfix1.png)
