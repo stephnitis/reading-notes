@@ -236,3 +236,5 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 - The workflow of fetching remote changes and then merging them is so common that git actually provides a command that does both at once! That command is `git pull`.
 
 ![git pull demo](../img/401.git/gitpulldemo.png)
+
+![git pull demo two](../img/401.git/gitpulldemo2.png)
