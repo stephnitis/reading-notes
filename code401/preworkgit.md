@@ -186,3 +186,37 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 ![git specify demo 3](../img/401.git/specifyparentsdemo3.png)
 
 ![git specify demo 4](../img/401.git/specifyparentsdemo4.png)
+
+![COMPLETED](../img/401.git/completed.png)
+
+## Git Remotes
+
+- Remote repositiories are copies of your repository on another computer. You can typically talk to this other computer through the Internet, which allows you to transfer commits back and forth.
+
+- First and foremost, remotes serve as a great backup! Local git repositories have the ability to restore files to a previous state (as you know), but all that information is stored locally. By having copies of your git repository on other computers, you can lose all your local data and still pick up where you left off.
+
+- Now that a copy of your project is hosted elsewhere, your friends can contribute to your project (or pull in your latest changes) very easily.
+
+- `git clone` is the command you'll use to create local copies of remote repositories.
+
+![git clone demo](../img/401.git/gitclonedemo.png)
+
+### Git Remote Branches
+
+- The new branch that appeared in our local repository called o/main is a type of branch called a remote branch.
+
+- Remote branches reflect the state of remote repositories (since you last talked to those remote repositories). They help you understand the difference between your local work and what work is public.
+
+- Remote branches have the special property that when you check them out, you are put into detached HEAD mode. Git does this on purpose because you can't work on these branches directly; you have to work elsewhere and then share your work with the remote (after which your remote branches will be updated).
+
+- Remote branches have a (required) naming convention -- they are displayed in the format of:
+
+`<remote name>/<branch name>`
+
+- If you look at a branch named `o/main`, the branch name is main and the name of the remote is `o`.
+
+- Most developers actually name their main remote `origin`, not `o`. This is so common that git actually sets up your remote to be named `origin` when you `git clone` a repository.
+
+- The full name of `origin` does not fit in our UI, so we use `o` as shorthand
+
+![git origin demo](../img/401.git/gitorigin.png)
