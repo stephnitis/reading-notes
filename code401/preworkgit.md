@@ -304,3 +304,5 @@ Cons:
 For example, commit `C1` can be rebased past `C3`. It then appears that the work for `C1'` came after `C3` when in reality it was completed beforehand.
 
 Some developers love to preserve history and thus prefer merging. Others prefer having a clean commit tree and prefer rebasing. It all comes down to preferences.
+
+![git merge solution](../img/401.git/gitmergesolution.png)
