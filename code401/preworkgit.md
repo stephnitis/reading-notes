@@ -258,3 +258,10 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 - `git pull` is just shorthand for a fetch and a merge. Conveniently enough, `git pull --rebase` is shorthand for a fetch and a rebase
 
 ![git push fix demo](../img/401.git/gitpushfix.png)
+
+![git pull fix demo](../img/401.git/gitpullfix.png)
+
+- Clone your repo
+- Fake some teamwork (1 commit)
+- Commit some work yourself (1 commit)
+- Publish your work via rebasing
