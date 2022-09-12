@@ -250,3 +250,7 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 ![git push reject demo](../img/401.git/gitpushreject.png)
 
 ![git push fix demo](../img/401.git/gitpushfix1.png)
+
+- Although `git merge` doesn't move your work (and instead just creates a merge commit), it's a way to tell git that you have incorporated all the changes from the remote. This is because the remote branch is now an ancestor of your own branch, meaning your commit reflects all commits in the remote branch.
+
+![git merge fix demo](../img/401.git/gitfixmerge.png)
