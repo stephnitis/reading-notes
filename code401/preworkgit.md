@@ -170,3 +170,19 @@ The output of the command looks like:
 Where `tag` is the closest ancestor tag in history, `numCommits` is how many commits away that tag is, and `<hash>` is the hash of the commit being described.
 
 ![git describe demo](../img/401.git/gitdescribedemo.png)
+
+### Specifying Parents
+
+- Like the `~` modifier, the `^` modifier also accepts an optional number after it.
+
+- Rather than specifying the number of generations to go back (what `~` takes), the modifier on `^` specifies which parent reference to follow from a merge commit. Remember that merge commits have multiple parents, so the path to choose is ambiguous.
+
+- Git will normally follow the "first" parent upwards from a merge commit, but specifying a number with `^` changes this default behavior.
+
+![git specify demo 1](../img/401.git/specifyparentsdemo.png)
+
+![git specify demo 2](../img/401.git/specifyparentsdemo2.png)
+
+![git specify demo 3](../img/401.git/specifyparentsdemo3.png)
+
+![git specify demo 4](../img/401.git/specifyparentsdemo4.png)
