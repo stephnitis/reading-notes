@@ -220,3 +220,19 @@ Where `tag` is the closest ancestor tag in history, `numCommits` is how many com
 - The full name of `origin` does not fit in our UI, so we use `o` as shorthand
 
 ![git origin demo](../img/401.git/gitorigin.png)
+
+## Git Fetch
+
+- To fetch data from a remote repository use the command `git fetch`
+
+![git fetch demo](../img/401.git/fetchdemo.png)
+
+- `git fetch` does not change anything about your local state. It will not update your main branch or change anything about how your file system looks right now.
+
+- **You can think of running `git fetch` as a download step.**
+
+## Git Pull
+
+- The workflow of fetching remote changes and then merging them is so common that git actually provides a command that does both at once! That command is `git pull`.
+
+![git pull demo](../img/401.git/gitpulldemo.png)
