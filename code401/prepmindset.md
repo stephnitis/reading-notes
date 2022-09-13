@@ -68,3 +68,15 @@ Challenges that fit the criteria:
 - Outward forces define what we want and how we view ourselves.
 - Make sure our ideas of success are our own.
 - Randomness of winning and losing process
+
+## [Emotional Intelligence](https://codefellows.github.io/common_curriculum/career_coaching/201/emotional-intelligence-assessment.pdf)
+
+I really liked this exercise, as I have been working on certain aspects of emotional intelligence via meditation. I recognize that I have a lot of room for growth, especially in recognizing my emotions and using that awareness to make better decisions, as well as improve the way I interact with others. This gave me further food for thought and a bit more direct focus.
+
+## [Bias](https://codefellows.github.io/common_curriculum/career_coaching/301/bias-assessment.pdf)
+
+First and foremost, this topic is something I feel very strongly for. I recognize the ways that I have had bias in the past and the fact that it is an ongoing struggle for each individual to overcome. For myself, I did score "well," but it did give me pause to recognize for example this assessment:  
+
+"I don’t spend time with, or actively avoid, people who challenge my opinions or decisions." 
+
+I am very open and work very hard to understand a plethora of races, genders, cultures, classes etc...and I work very hard to be inclusive and understanding of the wide array of vantage points this world has to offer. However, I also recognize my avoidance of people who I consider bias, who perhaps don't share similar political views as me, or perhaps engage in what I consider to be discriminatory behavior. On this note, I recognize my need to understand and relate to such people in a better way as I am certain that I will encounter many in my career. The questionnaire made me think about my father, who was subject to his bias until his workplace offered a diversity and inclusion course, and how if I were able to engage with individuals in a more effective way, it would perhaps be better than completely avoiding their discriminatory existence.
