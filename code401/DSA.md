@@ -238,3 +238,7 @@ The size of the data. The size of the storage. The data dynamics, such as changi
 2. How can we ensure that we’ll avoid an infinite recursive call stack?
 
 You must define when your function is to stop recursing.
+
+## Things I want to know more about
+
+Right now some of these concepts feel a bit abstract, and I would like to see them put to use. Graphs for example make sense in theory but I would like to understand them in implementation.
