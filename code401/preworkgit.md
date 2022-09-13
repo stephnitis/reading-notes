@@ -344,3 +344,29 @@ will set the `foo` branch to track `o/main`. If foo is currently checked out you
 `git branch -u o/main`
 
 ![new branch option two](../img/401.git/demobranchcreate2.png)
+
+## Push Arguments
+
+git push can optionally take arguments in the form of:
+
+`git push <remote> <place>`
+
+`git push origin main`
+
+translates to this in English:
+
+*Go to the branch named "main" in my repository, grab all the commits, and then go to the branch "main" on the remote named "origin". Place whatever commits are missing on that branch and then tell me when you're done.*
+
+By specifying main as the "place" argument, we told git where the commits will come from and where the commits will go. It's essentially the "place" or "location" to synchronize between the two repositories.
+
+Keep in mind that since we told git everything it needs to know (by specifying both arguments), it totally ignores where we are checked out
+
+## `<place>` argument details
+
+In order to specify both the source and the destination of `<place>`, simply join the two together with a colon:
+
+`git push origin <source>:<destination>`
+
+This is commonly referred to as a colon refspec. Refspec is just a fancy name for a location that git can figure out
+
+![LEVEL COMPLETE](../img/401.git/levelcomplete.png)
