@@ -133,3 +133,19 @@ Now that you've identified at least one root cause, you need to discuss and agre
 Keep a close watch on how effectively your counter-measures eliminate or minimize the initial problem. You may need to amend them, or replace them entirely.
 
 ## [The Super Mario Effect](https://www.youtube.com/watch?v=9vJRopau0g0)
+
+- The trick to learning more and having more success is how to frame the learning process
+- Learn from failures instead of focusing on them
+- Life gamification: it is natural to ignore the failures and try again, you want to keep trying
+- Reframe the challenges: learn through something cool
+- Thus the fear of failure is taken off the table
+
+## Discussion Questions
+
+1. What’s the one thing I bring to this career (and a potential employer) that nobody else can?
+
+I think saying that nobody else can is a bit extreme, but I do believe that each individual has unique perspectives and capabilities for problem solving. I feel that my strengths are in my creativity, artistic eye, and my background in hospitality, which has provided me with incredible customer service skills, and abilities to anticipate the needs of customers.
+
+2. What are 3 things I’ll start doing to “un-stick” myself whenever I get stuck on tough piece of code, logic, or feature?
+
+First and foremost is to take the time really break down and comprehend the problem I am trying to solve. Secondly, if I am stuck, taking time to reassess and try to view the problem in another light. Lastly, recognizing when to ask for help or research the problem further.
