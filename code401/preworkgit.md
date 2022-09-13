@@ -306,3 +306,41 @@ For example, commit `C1` can be rebased past `C3`. It then appears that the work
 Some developers love to preserve history and thus prefer merging. Others prefer having a clean commit tree and prefer rebasing. It all comes down to preferences.
 
 ![git merge solution](../img/401.git/gitmergesolution.png)
+
+## Remote-Tracking branches
+
+- During a pull operation, commits are downloaded onto `o/main` and then merged into the `main` branch. The implied target of the merge is determined from this connection.
+
+- During a push operation, work from the `main` branch was pushed onto the remote's `main` branch (which was then represented by `o/main` locally). The destination of the push is determined from the connection between `main` and `o/main`
+
+- this connection between main and o/main is explained simply by the "remote tracking" property of branches. The main branch is set to track o/main -- this means there is an implied merge target and implied push destination for the main branch.
+
+- when you clone a repository with git, this property is actually set for you automatically
+
+- During a clone, git creates a remote branch for every branch on the remote (aka branches like o/main). It then creates a local branch that tracks the currently active branch on the remote, which is main in most cases.
+
+- Once git clone is complete, you only have one local branch (so you aren't overwhelmed) but you can see all the different branches on the remote
+
+This also explains why you may see the following command output when cloning:
+
+`local branch "main" set to track remote branch "o/main"`
+
+- You can make any arbitrary branch track o/main, and if you do so, that branch will have the same implied push destination and merge target as main. This means you can run git push on a branch named totallyNotMain and have your work pushed to the main branch on the remote
+
+There are two ways to set this property. The first is to checkout a new branch by using a remote branch as the specified ref. Running
+
+`git checkout -b totallyNotMain o/main`
+
+Creates a new branch named `totallyNotMain` and sets it to track `o/main`.
+
+![new branch option one](../img/401.git/demobranchcreate1.png)
+
+Another way to set remote tracking on a branch is to simply use the git branch -u option. Running
+
+`git branch -u o/main foo`
+
+will set the `foo` branch to track `o/main`. If foo is currently checked out you can even leave it off:
+
+`git branch -u o/main`
+
+![new branch option two](../img/401.git/demobranchcreate2.png)
