@@ -203,6 +203,9 @@ Two Types:
 - A graph consists of a finite set of vertices or nodes and a set of edges connecting these vertices.
 - The order of a graph is the number of vertices in the graph. The size of a graph is the number of edges in the graph.
 - Two nodes are said to be adjacent if they are connected to each other by the same edge.
+- Used to represent social media networks. Each user is a vertex, and when users connect they create an edge.
+- Used to represent web pages and links by search engines. Web pages on the internet are linked to each other by hyperlinks. Each page is a vertex and the hyperlink between two pages is an edge. Used for Page Ranking in Google.
+- Used to represent locations and routes in GPS. Locations are vertices and the routes connecting locations are edges. Used to calculate the shortest route between two locations.
 
 #### Directed Graphs
 
@@ -215,6 +218,8 @@ Two Types:
 - A graph G is said to be an undirected graph if all its edges have no direction. It can go in both ways between the two vertices.
 - If a vertex is not connected to any other node in the graph, it is said to be isolated.
 
+[Big O Cheatsheet](https://www.bigocheatsheet.com/)
+
 ## [Why you should learn Big-O and stop hacking your way through algorithms](https://triplebyte.com/blog/why-you-should-learn-big-o-and-stop-hacking-your-way-through-algorithms)
 
 - Big-O is just the name of the notation used to describe how efficient an algorithm is.
@@ -223,3 +228,13 @@ Two Types:
 - *We care about this algorithm exclusively because of the efficiency benefits it provides; that’s what gives the algorithm meaning. Otherwise, it’s just needless complexity.*
 - To say search takes logarithmic time is just a fancy way of saying you cut out half the possible options at each decision point.
 - If you want to master algorithms (and you want them to stick), learn every topic side by side with all the nuances of time and space.
+
+## Discussion Questions
+
+1. What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
+
+The size of the data. The size of the storage. The data dynamics, such as changing or editing the data.
+
+2. How can we ensure that we’ll avoid an infinite recursive call stack?
+
+You must define when your function is to stop recursing.
