@@ -75,3 +75,4 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - [Prework: Data Structures and Algorithms](./code401/DSA.md)
 
 1. [Node Ecosystem](./code401/class01.md)
+2. [Express, NPM, TDD, CI/CD](./code401/class02.md)
