@@ -73,3 +73,5 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 - [Prework: Prep Your Mindset](./code401/prepmindset.md)
 - [Prework: Engineering Readings](./code401/engineerread.md)
 - [Prework: Data Structures and Algorithms](./code401/DSA.md)
+
+1. [Node Ecosystem](./code401/class01.md)
