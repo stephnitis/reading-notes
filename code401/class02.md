@@ -22,17 +22,62 @@ Modularity is useful as it allows you to organie your code into manageable parts
 
 ## [What is NPM?](https://docs.npmjs.com/about-npm)
 
+- npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+- npm consists of three distinct components:
+
+  1. the website
+  2. the Command Line Interface (CLI)
+  3. the registry
+
+- Use the website to discover packages, set up profiles, and manage other aspects of your npm experience. For example, you can set up organizations to manage access to public or private packages.
+
+- The CLI runs from a terminal, and is how most developers interact with npm.
+
+- The registry is a large public database of JavaScript software and the meta-information surrounding it.
+
+[Documentation](https://docs.npmjs.com/cli/v8)
+
 ### 1. What version of npm are you running on your machine?
+
+8.19.1
 
 ### 2. What command would you type to install a library/package called ‘jshint’ into your node project?
 
+`npm install jshint`
+
 ## [What is TDD?](https://www.agilealliance.org/glossary/tdd/)
+
+- “Test-driven development” refers to a style of programming in which three activities are tightly interwoven: coding, testing (in the form of writing unit tests) and design (in the form of refactoring).
+
+- Rules:
+  - write a “single” unit test describing an aspect of the program - run the test, which should fail because the program lacks that feature
+  - write “just enough” code, the simplest possible, to make the test pass
+  - “refactor” the code until it conforms to the simplicity criteria
+  - repeat, “accumulating” unit tests over time
 
 ### 1. Explain why tests are important. Please explain as though I were your non technical elder.
 
+Tests help reduce defects in code and lead to improved design qualities. 
+
+"By focusing on writing only the code necessary to pass tests, designs can often be cleaner and clearer than is achieved by other methods." - Kent Beck **Test Driven Development by Example**
+
 ### 2. What are three expected benefits of testing
 
+1. many teams report significant reductions in defect rates, at the cost of a moderate increase in initial development effort
+2. the same teams tend to report that these overheads are more than offset by a reduction in effort in projects’ final phases
+3. although empirical research has so far failed to confirm this, veteran practitioners report that TDD leads to improved design qualities in the code, and more generally a higher degree of “internal” or technical quality, for instance improving the metrics of cohesion and coupling
+
 ### 3. Name at lest 2 individual pitfalls and at least 2 team pitfalls commonly encountered while writing tests.
+
+Individual:
+
+1. forgetting to run tests frequently
+2. writing tests that are too large or coarse-grained
+
+Team:
+
+1. partial adoption – only a few developers on the team use TDD
+2. abandoned test suite (i.e. seldom or never run) – sometimes as a result of poor maintenance, sometimes as a result of team turnover
 
 ## [CI/CD](https://www.youtube.com/watch?v=xSv_m3KhUO8)
 
