@@ -83,6 +83,12 @@ Team:
 
 ### 1. What are three benefits of Continuous Integration?
 
+- Ensure everyone's changes integrate
+- Catch bugs
+- Reduce Merge Conflicts
+
 ### 2. What is the difference between Continuos Delivery and Continuous Deployment?
+
+Delivery develops software in a way that it is released at any time versus deployment is an extension of CI that allows changes in real time
 
 ### 3. Explain how GitHub fits into this process assuming the listener comes from a non-technical background

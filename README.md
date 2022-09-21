@@ -76,3 +76,4 @@ Learn more about me on my [profile page](https://github.com/stephnitis)
 
 1. [Node Ecosystem](./code401/class01.md)
 2. [Express, NPM, TDD, CI/CD](./code401/class02.md)
+3. [Express REST API](./code401/class03.md)
