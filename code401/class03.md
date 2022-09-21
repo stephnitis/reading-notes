@@ -38,6 +38,8 @@ It is a mini express application without all the bells and whistles of an expres
 
 ### 2. By what mean do we initialize `express.Router()` in an express server?
 
+by calling an instance of `express.Router();` e.g. `var router = express.Router();`
+
 ### 3. What do we use route middleware for?
 
 Route middleware in Express is a way to do something before a request is processed. This could be things like checking if a user is authenticated, logging data for analytics, or anything else we’d like to do before we actually spit out information to our user.
