@@ -26,7 +26,7 @@ class LinkedList {
     current.next = node;
   }
 
-  traverese(){
+  traverse(){
     let current = this.head;
     while(current){
       console.log(current.value);
@@ -34,7 +34,7 @@ class LinkedList {
     }
   }
 
-  travereseWithCallback(callback){
+  traverseWithCallback(callback){
     let current = this.head;
     while(current){
       callback(current.value);
@@ -50,7 +50,7 @@ console.log(list);
 
 list.add(1);
 
-list.traverese();
+list.traverse();
 list. traverseWithCallback(logger);
 
 
