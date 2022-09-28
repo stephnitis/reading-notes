@@ -71,3 +71,5 @@ The space time complexity this type of inserting will leave us with is a linear 
 - However, if you find yourself wanting to add a bunch of elements to a list and aren’t worried about finding elements again later, or if you know that you won’t need to traverse through the entirety of the list, a linked list could be your new best friend.
 
 ![Linked Lists Analogy as Ms Pac-Man](../img/Linked%20Lists%20Diagram.png)
+
+[Linked List Repl](https://replit.com/@StephniHill/liinkedlist-traversal#index.js)
