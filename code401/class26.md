@@ -17,7 +17,7 @@ In React, we mainly have two types of components:
 1. Functional Components: Functional components are simply javascript functions. We can create a functional component in React by writing a javascript function.
 2. Class Components: The class components are a little more complex than the functional components.
 
-In contrast, elements are the smallest building blocks of React apps. An element describes what you want to see on the screen: const element = `<h1>Hello, world</h1>;` Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
+In contrast, elements are the smallest building blocks of React apps. An element describes what you want to see on the screen: `const element = <h1>Hello, world</h1>;` Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
 
 An element is a plain object describing a component instance or DOM node and its desired properties. It contains only information about the component type (for example, a Button ), its properties (for example, its color ), and any child elements inside it. An element is not an actual instance.
 
@@ -41,7 +41,7 @@ Examples:
 
 - we can declare a variable called name and then use it inside JSX by wrapping it in curly braces
 
-``` JSX
+``` JavaScript
 const name = 'Josh Perez';
 const element = <h1>Hello, {name}</h1>;
 ```
@@ -50,7 +50,7 @@ const element = <h1>Hello, {name}</h1>;
 
 - In the example below, we embed the result of calling a JavaScript function, `formatName(user)`, into an `<h1>` element.
 
-``` JSX
+``` JavaScript
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
 }
@@ -77,7 +77,7 @@ const element = (
 
 After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects. Programmers can further replace if-else statements in JSX. This is possible by making use of conditional statements instead of if-else statements. This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions:
 
-```JSX
+```JavaScript
 function getGreeting(user) {
   if (user) {
     return <h1>Hello, {formatName(user)}!</h1>;
