@@ -46,4 +46,4 @@ Weighted graphs have many applications depending on the domain where you need to
 - [code fellows](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
 - [GRAPH THEORY (DATA STRUCTURE)](https://seeve.medium.com/graph-theory-data-structure-89c7423de878)
 - [Learn JavaScript Graph Data Structure](https://jarednielsen.com/data-structure-graph-javascript/)
--[Graph Data Structures in JavaScript for Beginners](https://adrianmejia.com/data-structures-for-beginners-graphs-time-complexity-tutorial/)
+- [Graph Data Structures in JavaScript for Beginners](https://adrianmejia.com/data-structures-for-beginners-graphs-time-complexity-tutorial/)
